@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b9e18f9e-be46-484e-a027-a988769c8ce5" name="apache2.4" url="http://localhost/laravel-demo">
+        <fileTransfer port="0" mountedRoot="F:\Programming\server\apache\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
