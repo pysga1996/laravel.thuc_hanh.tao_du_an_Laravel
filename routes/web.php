@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
+    $out = new \Symfony\Component\Console\Output\ConsoleOutput();
+    $out->writeln('test console!');
     return view('welcome');
 });
