@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.16.0
+4 verbose npm-session afcbb1f7618314be
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/npm 297ms (from cache)
+8 silly pacote tag manifest for npm@latest fetched in 331ms
+9 timing stage:loadCurrentTree Completed in 384ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 10ms
+15 silly install loadAllDepsIntoIdealTree
+16 timing stage:rollbackFailedOptional Completed in 1ms
+17 timing stage:runTopLevelLifecycles Completed in 397ms
+18 verbose stack Error: Refusing to install package with name "npm" under a package
+18 verbose stack also called "npm". Did you name your project the same
+18 verbose stack as the dependency you're installing?
+18 verbose stack
+18 verbose stack For more information, see:
+18 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+18 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:75:14)
+18 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+18 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+18 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+18 verbose stack     at hasMinimumFields (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:30:12)
+18 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+18 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+18 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+18 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+18 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+18 verbose stack     at Array.forEach (<anonymous>)
+18 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+18 verbose stack     at Array.forEach (<anonymous>)
+18 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+18 verbose stack     at module.exports (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:15:3)
+18 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+19 verbose cwd F:\Programming\Laravel\laravel-demo
+20 verbose Windows_NT 10.0.19041
+21 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "npm"
+22 verbose node v12.16.0
+23 verbose npm  v6.13.4
+24 error code ENOSELF
+25 error Refusing to install package with name "npm" under a package
+25 error also called "npm". Did you name your project the same
+25 error as the dependency you're installing?
+25 error
+25 error For more information, see:
+25 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+26 verbose exit [ 1, true ]
