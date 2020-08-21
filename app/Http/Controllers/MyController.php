@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 class MyController extends Controller
 {
     //
-    public function hello($name, $yearOfBirth) {
-        return "Hello " . $name . ", who was born in " . $yearOfBirth;
+    public function hello($name, $year_of_birth) {
+        return "Hello " . $name . ", who was born in " . $year_of_birth;
     }
 
-    public function goodbye($name, $yearOfBirth) {
-        return "Good Bye " . $name . ", who was born in " . $yearOfBirth;
+    public function goodbye($name, $year_of_birth) {
+        return "Good Bye " . $name . ", who was born in " . $year_of_birth;
     }
 }
