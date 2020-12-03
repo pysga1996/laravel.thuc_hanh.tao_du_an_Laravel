@@ -39,6 +39,6 @@
         route::get('8',function () {return "Bạn đang ở nhom/nhom8";});
     });
 
-    Route::get('/hello/{name}/{birthOfYear}', 'MyController@hello');
-    Route::get('/goodbye/{name}/{birthOfYear}', 'MyController@goodbye');
+    Route::get('/hello/{name}/{birth_of_year}', 'MyController@hello');
+    Route::get('/goodbye/{name}/{birth_of_year}', 'MyController@goodbye');
 

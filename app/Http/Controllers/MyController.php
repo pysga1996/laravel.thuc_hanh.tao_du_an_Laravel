@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Symfony\Component\Console\Output\ConsoleOutput;
 
 class MyController extends Controller
 {
     //
     public function hello($name, $year_of_birth) {
+        $x=5;
+        $out = new ConsoleOutput();
+        $out->writeln($x);
         return "Hello " . $name . ", who was born in " . $year_of_birth;
     }
 
