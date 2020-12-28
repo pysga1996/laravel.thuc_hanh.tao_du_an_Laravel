@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/laravel-framework-programming.iml" filepath="$PROJECT_DIR$/.idea/laravel-framework-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/laravel-programming.iml" filepath="$PROJECT_DIR$/.idea/laravel-programming.iml" />
     </modules>
   </component>
 </project>
